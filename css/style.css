@@ -1298,3 +1298,11 @@ h2 {
 .row iframe {
   max-width: 100%;
 }
+
+.editbr {
+  display: flex;
+  justify-content:space-around;
+}
+.editbr h2 {
+  font-size: 28px;
+}
