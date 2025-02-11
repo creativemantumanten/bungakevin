@@ -43,6 +43,9 @@
 	<link rel="stylesheet" href="css/magnific-popup.css">
 	
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="images/bridesmaid-3.jpg" type="image/x-icon"/>
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 
 
 	<!-- Modernizr JS -->
@@ -54,6 +57,11 @@
 
 	</head>
 	<body>
+		<audio id="audioPlayer">
+			<source src="images/videoplayback.m4a" type="audio/mpeg">
+			Your browser does not support the audio element.
+		</audio>
+		<button onclick="togglePlayPause()" class="buttonpl"><i class='bx bx-play'></i></button>
 		<div id="fh5co-wrapper">
 		<div id="fh5co-page">
 	
@@ -71,6 +79,7 @@
 								</div>
 							</div>
 						</div>
+						<img src="images/Bunga.png" alt="">
 					</div>
 				</div>
 			</div>
@@ -131,7 +140,7 @@
 				<div class="col-md-8 col-md-offset-2 text-center animate-box">
 					<p class="countdown">
 						<h1>Turut Mengundang</h1>
-						<h2>Keluarga Besar Kedua Mempelai</h2>
+						<h3>Keluarga Besar Kedua Mempelai</h3>
 					</p>
 				</div>
 			</div>
@@ -202,6 +211,21 @@
 
 	<!-- jQuery -->
 	<script src="dist/scripts.min.js"></script>
+
+	<script>
+        var audio = document.getElementById('audioPlayer');
+
+        function togglePlayPause() {
+            if (audio.paused) {
+                audio.play();
+            } else {
+                audio.pause();
+            }
+        }
+    </script>
+
+	<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
 	</body>
 </html>
 

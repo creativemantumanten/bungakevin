@@ -42,6 +42,8 @@
 	<link rel="stylesheet" href="css/magnific-popup.css">
 	
 	<link rel="stylesheet" href="css/style.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 
 
 	<!-- Modernizr JS -->
@@ -53,6 +55,11 @@
 
 	</head>
 	<body>
+		<audio id="audioPlayer" >
+			<source src="images/videoplayback.m4a" type="audio/mpeg">
+			Your browser does not support the audio element.
+		</audio>
+		<button onclick="togglePlayPause()" class="buttonpl"><i class='bx bx-play'></i></button>
 		<div id="fh5co-wrapper">
 		<div id="fh5co-page">
 	
@@ -69,6 +76,7 @@
 								</div>
 							</div>
 						</div>
+						<img src="images/Bunga.png" alt="">
 					</div>
 				</div>
 			</div>
@@ -122,8 +130,8 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-md-12">
+				<div class="row mapsgog">
+					<div class="col-md-12 mapsgog2">
 						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4082.219201401153!2d107.87226692513772!3d-7.181853442823194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68b0ea7e600fa7%3A0xe503d43150e43485!2sSabda%20Alam%20Hotel%20%26%20Resort!5e1!3m2!1sid!2sid!4v1739180971695!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 					</div>
 				</div>
@@ -195,6 +203,19 @@
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
 	<!-- jQuery -->
 	<script src="dist/scripts.min.js"></script>
+	<script>
+        var audio = document.getElementById('audioPlayer');
+
+        function togglePlayPause() {
+            if (audio.paused) {
+                audio.play();
+            } else {
+                audio.pause();
+            }
+        }
+    </script>
+	<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
 	</body>
 </html>
 
