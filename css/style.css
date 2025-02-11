@@ -45,8 +45,12 @@ p, ul, ol {
   font-family: "Open Sans", Arial, sans-serif;
 }
 
+.sticky-banner .container {
+  background-color: maroon;
+}
+
 h1, h2, h3, h4, h5, h6 {
-  color: #5a5a5a;
+  color: white;
   font-family: "Montez", cursive;
   font-weight: 400;
   margin: 0 0 30px 0;
@@ -85,6 +89,24 @@ figure {
   -ms-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05);
   -o-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05);
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+  color: maroon;
+}
+
+.buttonpl {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  color: maroon;
+  border-radius: 100%;
 }
 
 .header-top {
@@ -379,7 +401,7 @@ figure {
 }
 
 #fh5co-logo a {
-  color: #F69D9D;
+  color: white;
 }
 
 #fh5co-logo a:hover, #fh5co-logo a:focus {
@@ -567,7 +589,7 @@ figure {
   font-size: 50px;
   font-weight: 300;
   position: relative;
-  color: #F69D9D;
+  color: maroon;
 }
 
 .heading-section p {
@@ -605,7 +627,7 @@ figure {
 }
 
 #fh5co-countdown {
-  background: #F69D9D;
+  background: maroon;
 }
 
 #fh5co-countdown .countdown {
@@ -732,7 +754,7 @@ figure {
 #fh5co-started .btn-block {
   height: 54px;
   border: none !important;
-  background: #F69D9D;
+  background: maroon;
   color: #fff;
   font-size: 16px;
   text-transform: uppercase;
@@ -898,7 +920,7 @@ figure {
 }
 
 #footer {
-  background: #F69D9D;
+  background: maroon;
   padding: 60px 0 40px;
 }
 
@@ -929,7 +951,7 @@ figure {
 }
 
 .btn.btn-primary {
-  background: #F69D9D;
+  background: maroon;
   color: #fff;
   border: none !important;
   border: 2px solid transparent !important;
@@ -937,7 +959,7 @@ figure {
 
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   box-shadow: none;
-  background: #F69D9D;
+  background: maroon;
   color: #fff !important;
 }
 
@@ -1262,4 +1284,15 @@ figure {
   height: 100%;
   z-index: 9999;
   background: url(../images/hourglass.svg) center no-repeat #222222;
+}
+
+.nopadding h3 {
+  color: maroon;
+}
+.desc h3 {
+  color: maroon;
+}
+
+.row iframe {
+  max-width: 100%;
 }
