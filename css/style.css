@@ -46,8 +46,10 @@ p, ul, ol {
 }
 
 .sticky-banner .container {
-  background-color: maroon;
+  background-color: white;
 }
+
+
 
 h1, h2, h3, h4, h5, h6 {
   color: white;
@@ -288,11 +290,11 @@ h2 {
 }
 
 .sf-menu a:hover, .sf-menu a:focus {
-  color: #F69D9D !important;
+  color: black !important;
 }
 
 .sf-menu li.active a:hover, .sf-menu li.active a:focus {
-  color: #F69D9D;
+  color: maroon;
 }
 
 .sf-menu li,
@@ -316,7 +318,7 @@ h2 {
 .sf-menu ul li:hover a,
 .sf-menu ul li.sfHover a,
 .sf-menu li.active a {
-  color: #F69D9D;
+  color: maroon;
 }
 
 .sf-menu ul li:hover,
@@ -401,7 +403,7 @@ h2 {
 }
 
 #fh5co-logo a {
-  color: white;
+  color: maroon;
 }
 
 #fh5co-logo a:hover, #fh5co-logo a:focus {
